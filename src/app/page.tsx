@@ -1,10 +1,11 @@
 
 import HomePage from "./landingpage/page";
-import MenuCards from "./service";
+import GallerySection from "./service"
 import HeroSection from "./about";
-import TestimonialsSection from "./team";
-import ContactFormMap from "./map";
-import DarkFooter from "./footer/indext";
+import HotelRooms from "./team";
+import ContactFormFAQ from "./map"
+
+import HotelFooter from "./footer/indext";
 
 
 export default function Home() {
@@ -13,10 +14,11 @@ export default function Home() {
       <HomePage/>
 
       <HeroSection/>
-      <MenuCards/> 
-      <TestimonialsSection/>
-    <ContactFormMap/>
-    <DarkFooter/>
+      
+      <HotelRooms/>
+      <GallerySection/>
+    <ContactFormFAQ/>
+    <HotelFooter/>
      </div>
   );
 }
